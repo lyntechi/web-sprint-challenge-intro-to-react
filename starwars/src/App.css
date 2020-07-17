@@ -8,8 +8,23 @@
 }
 .App {
   text-align: center;
+
 }
 
+img{
+  
+ width: 1680px;
+
+
+}
+.lightning{
+  opacity: 0.7;
+  height: 28vh;
+}
+
+.pictureCharacter{
+  display: flex;
+}
 body{
   background-image: url('https://wallpapercave.com/wp/xX2GRj6.gif');
  

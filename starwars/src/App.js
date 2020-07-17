@@ -3,13 +3,14 @@ import './App.css';
 import axios from 'axios';
 import Character from './components/Character'
 import styled from 'styled-components'
+import Picture from './components/PICTURE'
 
 
 const H1Styles = styled.h1`
 font-size: 4rem;
 color: white;
 background: rgba(102, 51, 153, 0.6);
-padding: 20px;
+padding: 60px;
 `
 
 
@@ -35,8 +36,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <H1Styles>REACT STAR WARS <span role="img" aria-label="emoji">🌠🛸</span></H1Styles>
-      <Character characters={characters} setCharacters={setCharacters}/>
+      <H1Styles><span role="img" aria-label="emoji">🛸</span> REACT STAR WARS <span role="img" aria-label="emoji">🌠</span></H1Styles>
+      <div className="pictureCharacter"><Picture />
+      <Character characters={characters} setCharacters={setCharacters}/></div>
+      
     </div>
   );
 }
