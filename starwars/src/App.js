@@ -35,7 +35,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <H1Styles>REACT WARS <span role="img" aria-label="emoji">🌠🛸</span></H1Styles>
+      <H1Styles>REACT STAR WARS <span role="img" aria-label="emoji">🌠🛸</span></H1Styles>
       <Character characters={characters} setCharacters={setCharacters}/>
     </div>
   );
