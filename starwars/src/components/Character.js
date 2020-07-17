@@ -12,10 +12,12 @@ color: white;
 display: flex;
 flex-wrap: wrap;
 margin-top: 50px;
+justify-content: center;
 
- div:nth-child(10){
-    margin: 0 auto;
- }
+
+//  div:nth-child(10){
+//     margin: 0 auto;
+//  }
 .characters{
     border: 2px white solid;
     width: 30%;
