@@ -1,8 +1,24 @@
+*{
+  font-family: 'Audiowide', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+
+}
 .App {
   text-align: center;
+}
+
+body{
+  background-image: url('https://wallpapercave.com/wp/xX2GRj6.gif');
+ 
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  border: 1px rgba(236, 236, 104, 0.767) solid;
 }
+
+
 /* write your parent styles in here for your App.js */
